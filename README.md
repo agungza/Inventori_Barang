@@ -65,6 +65,14 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ![DFD Level 4](DAD_Level_4.PNG)
 
+---
+
+## Interface
+
+Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Inventori Barang.
+
+### Halaman Login
+![Login](login.PNG)
 
 ---
 
