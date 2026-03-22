@@ -47,8 +47,7 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ### Diagram Konteks
 
-<img width="919" height="409" alt="image" src="https://github.com/user-attachments/assets/e12c0680-6983-40de-a40b-622798260dce" />
-
+![Diagram Konteks](images/Diagram_Konteks.PNG.png)
 
 
 
