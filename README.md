@@ -47,7 +47,7 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ### Diagram Konteks
 
-![Diagram Konteks](images/Diagram_Konteks.PNG.png)
+![Diagram Konteks](Diagram_Konteks.PNG)
 
 
 
