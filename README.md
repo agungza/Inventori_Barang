@@ -1,7 +1,7 @@
 # Sistem Informasi Inventori_Barang
 
 ## Deskripsi
-Sistem Informasi Persediaan Barang adalah aplikasi desktop yang dirancang untuk membantu proses pengelolaan inventori barang secara terkomputerisasi. Sistem ini mempermudah pencatatan data barang, transaksi barang masuk, barang keluar, serta pembuatan laporan inventori secara otomatis.
+Sistem Informasi Inventori Barang adalah aplikasi desktop yang dirancang untuk membantu proses pengelolaan inventori barang secara terkomputerisasi. Sistem ini mempermudah pencatatan data barang, transaksi barang masuk, barang keluar, serta pembuatan laporan inventori secara otomatis.
 
 Aplikasi ini dikembangkan menggunakan Java Desktop Application dengan MySQL sebagai database penyimpanan data.
 
@@ -9,7 +9,7 @@ Tujuan dari sistem ini adalah untuk meningkatkan efisiensi pengelolaan stok bara
 
 ---
 
-##Fitur Sistem
+## Fitur Sistem
 
 Berdasarkan hasil analisis kebutuhan sistem, aplikasi ini memiliki beberapa fitur utama:
 
@@ -41,15 +41,12 @@ Berdasarkan hasil analisis kebutuhan sistem, aplikasi ini memiliki beberapa fitu
 
 ---
 
-Inventori_Barang 
-│ 
-├── src/ 
-├── nbproject/ 
-├── build/ 
-├── plugin laporan/ 
-├── build.xml 
-├── manifest.mf 
-└── README.md
+## Desain Sistem
+
+Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis kebutuhan sistem selesai. Pada tahap ini dilakukan perancangan struktur sistem yang bertujuan untuk memberikan gambaran mengenai alur proses, hubungan antar data, serta tampilan antarmuka yang akan digunakan dalam aplikasi Sistem Informasi Inventori Barang.
+
+
+
 
 ---
 
