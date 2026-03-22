@@ -1,7 +1,7 @@
 # Sistem Informasi Inventori_Barang
 
 ## Deskripsi
-Sistem Informasi Persediaan Barang adalah aplikasi desktop yang dibuat untuk membantu pengelolaan inventori barang secara terkomputerisasi.
+Sistem Informasi Inventori Barang adalah aplikasi desktop yang dibuat untuk membantu pengelolaan inventori barang secara terkomputerisasi.
 
 Aplikasi ini dibuat menggunakan bahasa pemrograman **Java** dengan database **MySQL**.
 
