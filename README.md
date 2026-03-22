@@ -65,6 +65,14 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ![DFD Level 4](DAD_Level_4.PNG)
 
+### ERD
+
+![ERD](ERD.PNG)
+
+### Relasi Tabel
+
+![Relasi Tabel](Tabel.PNG)
+
 ---
 
 ## Interface
@@ -78,25 +86,25 @@ Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Invent
 ![Dashboard Admin](Dashboard_admin.PNG)
 
 ### Dashboard Karyawan
-![Dashboard Karyawan](Dashboard karyawan.PNG)
+![Dashboard Karyawan](Dashboard_karyawan.PNG)
 
 ### Data Barang
-![data barang admin](data barang admin.PNG)
+![data barang admin](data_barang_admin.PNG)
 
 ### Data Supplier
-![data supplier](data supplier.PNG)
+![data supplier](data_supplier.PNG)
 
 ### Transaksi Masuk 
-![data transaksi masuk](data transaksi masuk.PNG)
+![data transaksi masuk](data_transaksi_masuk.PNG)
 
 ### Transaksi Keluar
-![transaksi keluar](transaksi keluar.PNG)
+![transaksi keluar](transaksi_keluar.PNG)
 
 ### Return
-![transaksi return](transaksi return.PNG)
+![transaksi return](transaksi_return.PNG)
 
 ### Laporan
-![cetak laporan](cetak laporan.PNG)
+![cetak laporan](cetak_laporan.PNG)
 
 ---
 
