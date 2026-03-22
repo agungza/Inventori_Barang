@@ -51,7 +51,7 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ### DFD Level 1
 
-![DFD Levevl_1](DAD_Levevl_1.PNG.PNG)
+![DFD Levevl_1](DAD_Levevl_1.PNG)
 
 ### DFD Level 2 Proses 2
 
