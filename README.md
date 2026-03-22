@@ -75,7 +75,7 @@ Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Invent
 ![Login](login.PNG)
 
 ### Dashboard Admin
-![Dashboard Admin](Dashboard admin.PNG)
+![Dashboard Admin](Dashboardadmin.PNG)
 
 ### Dashboard Karyawan
 ![Dashboard Karyawan](Dashboard karyawan.PNG)
