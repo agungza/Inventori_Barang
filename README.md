@@ -45,6 +45,11 @@ Berdasarkan hasil analisis kebutuhan sistem, aplikasi ini memiliki beberapa fitu
 
 Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis kebutuhan sistem selesai. Pada tahap ini dilakukan perancangan struktur sistem yang bertujuan untuk memberikan gambaran mengenai alur proses, hubungan antar data, serta tampilan antarmuka yang akan digunakan dalam aplikasi Sistem Informasi Inventori Barang.
 
+### Diagram Konteks
+
+<img width="919" height="409" alt="image" src="https://github.com/user-attachments/assets/e12c0680-6983-40de-a40b-622798260dce" />
+
+
 
 
 
