@@ -74,6 +74,30 @@ Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Invent
 ### Halaman Login
 ![Login](login.PNG)
 
+### Dashboard Admin
+![Dashboard Admin](Dashboard admin.PNG)
+
+### Dashboard Karyawan
+![Dashboard Karyawan](Dashboard karyawan.PNG)
+
+### Data Barang
+![data barang admin](data barang admin.PNG)
+
+### Data Supplier
+![data supplier](data supplier.PNG)
+
+### Transaksi Masuk 
+![data transaksi masuk](data transaksi masuk.PNG)
+
+### Transaksi Keluar
+![transaksi keluar](transaksi keluar.PNG)
+
+### Return
+![transaksi return](transaksi return.PNG)
+
+### Laporan
+![cetak laporan](cetak laporan.PNG)
+
 ---
 
 ## Cara Menjalankan Project
