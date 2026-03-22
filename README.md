@@ -104,7 +104,7 @@ Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Invent
 ![transaksi return](transaksi_return.PNG)
 
 ### Laporan
-![cetak laporan](cetak_aporan.PNG)
+![cetak laporan](cetak_laporan.PNG)
 
 ---
 
