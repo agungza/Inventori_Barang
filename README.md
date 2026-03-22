@@ -118,5 +118,5 @@ Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Invent
 
 ## Author
 
-Agung Zakaria  
+Agung Zakariah
 https://github.com/agungza
