@@ -13,19 +13,19 @@ Tujuan dari sistem ini adalah untuk meningkatkan efisiensi pengelolaan stok bara
 
 Berdasarkan hasil analisis kebutuhan sistem, aplikasi ini memiliki beberapa fitur utama:
 
-##Manajemen Data
+## Manajemen Data
 - Pengelolaan data barang
 - Pengelolaan data supplier
 - Pengelolaan data karyawan / admin
-##Transaksi Inventori
+## Transaksi Inventori
 - Transaksi barang masuk
 - Transaksi barang keluar
 - Transaksi return barang
-##Sistem Laporan
+## Sistem Laporan
 - Laporan barang masuk
 - Laporan barang keluar
 - Laporan return barang
-#Sistem Login
+## Sistem Login
 - Login admin
 - Login karyawan
 - Dashboard sesuai hak akses pengguna
