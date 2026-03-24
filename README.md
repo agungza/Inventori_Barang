@@ -47,7 +47,7 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ### Diagram Konteks
 
-[![Diagram Konteks](Diagram_Konteks.PNG)](https://github.com/agungza/percobaan/issues/2#issue-4124629489)
+<img width="801" height="376" alt="Image" src="https://github.com/user-attachments/assets/48aee133-0f03-464e-a2d1-22c7ebacfa74" />
 
 ### DFD Level 1
 
