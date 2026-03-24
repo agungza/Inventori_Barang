@@ -55,23 +55,23 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 
 ### DFD Level 2 Proses 2
 
-![DFD Level 2](DAD_Level_2.PNG)
+<img width="616" height="418" alt="Image" src="https://github.com/user-attachments/assets/e095b170-b65c-4fec-8420-4444205f4288" />
 
 ### DFD Level 2 Proses 3
 
-![DFD Level 3](DAD_Level_3.PNG)
+<img width="556" height="690" alt="Image" src="https://github.com/user-attachments/assets/ec46ca2a-cce5-401f-9b05-86fc44121ad9" />
 
 ### DFD Level 2 Proses 4
 
-![DFD Level 4](DAD_Level_4.PNG)
+<img width="657" height="593" alt="Image" src="https://github.com/user-attachments/assets/589838f5-0f05-47d5-97a4-daa81a79cfe3" />
 
 ### ERD
 
-![ERD](ERD.PNG)
+<img width="524" height="658" alt="Image" src="https://github.com/user-attachments/assets/80722ff2-a8d2-401f-8d20-deb360cf0255" />
 
 ### Relasi Tabel
 
-![Relasi Tabel](Tabel.PNG)
+<img width="911" height="630" alt="Image" src="https://github.com/user-attachments/assets/5f70d715-07de-46f9-9e02-35073bb54b00" />
 
 ---
 
