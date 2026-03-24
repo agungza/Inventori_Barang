@@ -80,31 +80,31 @@ Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis
 Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Inventori Barang.
 
 ### Halaman Login
-![Login](login.PNG)
+<img width="378" height="315" alt="Image" src="https://github.com/user-attachments/assets/4d75ab0a-7eb1-4a62-b903-479e00622fc7" />
 
 ### Dashboard Admin
-![Dashboard Admin](Dashboard_admin.PNG)
+<img width="583" height="298" alt="Image" src="https://github.com/user-attachments/assets/2bc88665-b298-4f55-97e5-7ec1ed9202d3" />
 
 ### Dashboard Karyawan
-![Dashboard Karyawan](Dashboard_karyawan.PNG)
+<img width="811" height="507" alt="Image" src="https://github.com/user-attachments/assets/f5240fb8-804e-4ed3-9d81-9a8df32bf4ee" />
 
 ### Data Barang
-![data barang admin](data_barang_admin.PNG)
+<img width="574" height="248" alt="Image" src="https://github.com/user-attachments/assets/2fdde9d6-9ea2-4358-996f-44f0dcd0bb07" />
 
 ### Data Supplier
-![data supplier](data_supplier.PNG)
+<img width="650" height="256" alt="Image" src="https://github.com/user-attachments/assets/08644ba9-6c56-452d-b315-4ebe42b96063" />
 
 ### Transaksi Masuk 
-![data transaksi masuk](data_transaksi_masuk.PNG)
+<img width="770" height="417" alt="Image" src="https://github.com/user-attachments/assets/54e690ac-55b6-4b89-ae91-5d37feb277fd" />
 
 ### Transaksi Keluar
-![transaksi keluar](transaksi_keluar.PNG)
+<img width="811" height="556" alt="Image" src="https://github.com/user-attachments/assets/6465c363-d8b6-4aba-9da2-c606ec0e97cb" />
 
 ### Return
-![transaksi return](transaksi_return.PNG)
+<img width="821" height="414" alt="Image" src="https://github.com/user-attachments/assets/621bbe5b-7986-4493-8265-1968a0951e64" />
 
 ### Cetak Laporan
-![cetak_laporan](cetak_laporan.PNG)
+<img width="641" height="383" alt="Image" src="https://github.com/user-attachments/assets/55c3a598-9405-4ba9-80de-d9e2bcbe52d3" />
 
 ---
 
