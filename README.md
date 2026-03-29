@@ -1,122 +1,189 @@
-# Sistem Informasi Inventori_Barang
+# 📦 Aplikasi Inventori Barang
 
-## Deskripsi
-Sistem Informasi Inventori Barang adalah aplikasi desktop yang dirancang untuk membantu proses pengelolaan inventori barang secara terkomputerisasi. Sistem ini mempermudah pencatatan data barang, transaksi barang masuk, barang keluar, serta pembuatan laporan inventori secara otomatis.
-
-Aplikasi ini dikembangkan menggunakan Java Desktop Application dengan MySQL sebagai database penyimpanan data.
-
-Tujuan dari sistem ini adalah untuk meningkatkan efisiensi pengelolaan stok barang serta meminimalisir kesalahan pencatatan yang sering terjadi pada sistem manual.
+Aplikasi desktop manajemen inventori barang berbasis Java yang dirancang untuk membantu pengelolaan stok, transaksi pembelian, penjualan, dan retur barang secara efisien. Dibangun menggunakan Java Swing dengan koneksi database MySQL.
 
 ---
 
-## Fitur Sistem
+## 🖥️ Tampilan Aplikasi
 
-Berdasarkan hasil analisis kebutuhan sistem, aplikasi ini memiliki beberapa fitur utama:
+> Aplikasi ini memiliki antarmuka grafis (GUI) berbasis Java Swing dengan tampilan yang intuitif dan mudah digunakan.
 
-### Manajemen Data
-- Pengelolaan data barang
-- Pengelolaan data supplier
-- Pengelolaan data karyawan / admin
-### Transaksi Inventori
-- Transaksi barang masuk
-- Transaksi barang keluar
-- Transaksi return barang
-### Sistem Laporan
+---
+
+## ✨ Fitur Utama
+
+### 🔐 Autentikasi & Manajemen Pengguna
+- Login multi-role: **Admin** dan **Karyawan**
+- Sesi pengguna terpisah untuk setiap role (`SesiAdmin`, `SesiPemilik`)
+- Registrasi akun pengguna baru
+- Dashboard berbeda sesuai hak akses
+
+### 📋 Manajemen Data Master
+- **Data Barang** — tambah, edit, hapus, dan cari data barang dengan kode otomatis
+- **Data Supplier** — kelola informasi supplier dengan kode ID otomatis
+- **Data Karyawan** — manajemen data karyawan beserta detail lengkap
+
+### 💼 Manajemen Transaksi
+- **Transaksi Beli** — pencatatan pembelian barang dari supplier
+- **Transaksi Jual** — pencatatan penjualan barang dengan perhitungan total otomatis
+- **Transaksi Retur** — pengelolaan pengembalian barang berdasarkan nomor nota
+
+### 📊 Laporan & Cetak
+- Laporan stok barang
 - Laporan barang masuk
 - Laporan barang keluar
-- Laporan return barang
-### Sistem Login
-- Login admin
-- Login karyawan
-- Dashboard sesuai hak akses pengguna
+- Laporan retur barang
+- Didukung oleh **JasperReports** untuk cetak laporan profesional (`.jasper` & `.jrxml`)
+
+### 🗂️ Dashboard
+- Dashboard **Admin**: ringkasan data barang, supplier, dan karyawan
+- Dashboard **Karyawan**: monitoring barang keluar, barang masuk, dan retur secara real-time
 
 ---
 
-## Framework yang Digunakan
+## 🗃️ Struktur Proyek
 
-- Java
-- NetBeans IDE
-- MySQL
-- Apache Ant
-
----
-
-## Desain Sistem
-
-Desain sistem merupakan tahap perancangan yang dilakukan setelah proses analisis kebutuhan sistem selesai. Pada tahap ini dilakukan perancangan struktur sistem yang bertujuan untuk memberikan gambaran mengenai alur proses, hubungan antar data, serta tampilan antarmuka yang akan digunakan dalam aplikasi Sistem Informasi Inventori Barang.
-
-### Diagram Konteks
-
-<img width="801" height="376" alt="Image" src="https://github.com/user-attachments/assets/48aee133-0f03-464e-a2d1-22c7ebacfa74" />
-
-### DFD Level 1
-
-<img width="685" height="702" alt="Image" src="https://github.com/user-attachments/assets/4ace024d-7d9f-4a6d-b800-32251abfd903" />
-
-### DFD Level 2 Proses 2
-
-<img width="616" height="418" alt="Image" src="https://github.com/user-attachments/assets/e095b170-b65c-4fec-8420-4444205f4288" />
-
-### DFD Level 2 Proses 3
-
-<img width="556" height="690" alt="Image" src="https://github.com/user-attachments/assets/ec46ca2a-cce5-401f-9b05-86fc44121ad9" />
-
-### DFD Level 2 Proses 4
-
-<img width="657" height="593" alt="Image" src="https://github.com/user-attachments/assets/589838f5-0f05-47d5-97a4-daa81a79cfe3" />
-
-### ERD
-
-<img width="524" height="658" alt="Image" src="https://github.com/user-attachments/assets/80722ff2-a8d2-401f-8d20-deb360cf0255" />
-
-### Relasi Tabel
-
-<img width="911" height="630" alt="Image" src="https://github.com/user-attachments/assets/5f70d715-07de-46f9-9e02-35073bb54b00" />
+```
+src/
+├── Apk_inv/
+│   ├── main.java                  # Entry point aplikasi
+│   ├── login.java                 # Form login
+│   ├── dashboard.java             # Dashboard admin
+│   ├── dashboard2.java            # Dashboard karyawan
+│   ├── barang.java                # Manajemen data barang
+│   ├── supplier.java              # Manajemen data supplier
+│   ├── karyawan.java              # Manajemen data karyawan
+│   ├── detail_karyawan.java       # Detail & edit karyawan
+│   ├── transaksi_beli.java        # Transaksi pembelian
+│   ├── transaksi_jual.java        # Transaksi penjualan
+│   ├── transaksi_return.java      # Transaksi retur
+│   ├── laporan.java               # Menu laporan
+│   ├── Laporan_1.java             # Detail laporan
+│   ├── menu_transaksi.java        # Menu transaksi
+│   ├── db_koneksi.java            # Konfigurasi koneksi database
+│   ├── SesiAdmin.java             # Manajemen sesi admin
+│   ├── SesiPemilik.java           # Manajemen sesi karyawan
+│   ├── report.java                # Utilitas cetak laporan
+│   ├── *.jasper / *.jrxml         # Template laporan JasperReports
+│   └── *.form                     # File form NetBeans GUI Builder
+├── Aplikasi_inventory/
+│   └── images/                    # Aset gambar & ikon aplikasi
+└── session/
+    └── session_login.java         # Utilitas sesi login
+```
 
 ---
 
-## Interface
+## 🛠️ Teknologi yang Digunakan
 
-Berikut adalah beberapa tampilan antarmuka dari aplikasi Sistem Informasi Inventori Barang.
-
-### Halaman Login
-<img width="378" height="315" alt="Image" src="https://github.com/user-attachments/assets/4d75ab0a-7eb1-4a62-b903-479e00622fc7" />
-
-### Dashboard Admin
-<img width="583" height="298" alt="Image" src="https://github.com/user-attachments/assets/2bc88665-b298-4f55-97e5-7ec1ed9202d3" />
-
-### Dashboard Karyawan
-<img width="811" height="507" alt="Image" src="https://github.com/user-attachments/assets/f5240fb8-804e-4ed3-9d81-9a8df32bf4ee" />
-
-### Data Barang
-<img width="574" height="248" alt="Image" src="https://github.com/user-attachments/assets/2fdde9d6-9ea2-4358-996f-44f0dcd0bb07" />
-
-### Data Supplier
-<img width="650" height="256" alt="Image" src="https://github.com/user-attachments/assets/08644ba9-6c56-452d-b315-4ebe42b96063" />
-
-### Transaksi Masuk 
-<img width="770" height="417" alt="Image" src="https://github.com/user-attachments/assets/54e690ac-55b6-4b89-ae91-5d37feb277fd" />
-
-### Transaksi Keluar
-<img width="811" height="556" alt="Image" src="https://github.com/user-attachments/assets/6465c363-d8b6-4aba-9da2-c606ec0e97cb" />
-
-### Return
-<img width="821" height="414" alt="Image" src="https://github.com/user-attachments/assets/621bbe5b-7986-4493-8265-1968a0951e64" />
-
-### Cetak Laporan
-<img width="641" height="383" alt="Image" src="https://github.com/user-attachments/assets/55c3a598-9405-4ba9-80de-d9e2bcbe52d3" />
+| Teknologi | Keterangan |
+|-----------|------------|
+| **Java** | Bahasa pemrograman utama |
+| **Java Swing** | Framework GUI desktop |
+| **NetBeans GUI Builder** | IDE & form designer |
+| **MySQL** | Database relasional |
+| **JDBC** | Koneksi Java ke MySQL |
+| **JasperReports** | Pembuatan & cetak laporan |
+| **rs2xml** | Konversi ResultSet ke TableModel |
 
 ---
 
-## Cara Menjalankan Project
+## ⚙️ Prasyarat
 
-1. Clone repository (git clone https://github.com/agungza/Inventori_Barang.git)
-2. Buka project di NetBeans
-3. Jalankan project
+Sebelum menjalankan aplikasi, pastikan sudah terinstal:
+
+- ☕ **Java JDK 8** atau lebih baru
+- 🐬 **MySQL Server** (versi 5.x atau 8.x)
+- 🧰 **NetBeans IDE** (disarankan versi 8.x atau 12.x)
+- 📚 Library yang dibutuhkan:
+  - `mysql-connector-java.jar`
+  - `jasperreports-x.x.x.jar`
+  - `rs2xml.jar`
 
 ---
 
-## Author
+## 🚀 Cara Instalasi & Menjalankan
 
-Agung Zakariah
-https://github.com/agungza
+### 1. Clone Repositori
+```bash
+git clone https://github.com/agungza/Inventori_Barang.git
+cd Inventori_Barang
+```
+
+### 2. Buat Database MySQL
+Buat database baru di MySQL dengan nama `db_inventori`:
+```sql
+CREATE DATABASE db_inventori;
+```
+Kemudian import file SQL (jika tersedia) atau buat tabel secara manual sesuai struktur yang digunakan aplikasi.
+
+### 3. Konfigurasi Koneksi Database
+Edit file `src/Apk_inv/db_koneksi.java` sesuai konfigurasi MySQL kamu:
+```java
+String db   = "jdbc:mysql://localhost/db_inventori";
+String user = "root";
+String pasword = "your_password"; // Isi password MySQL kamu
+```
+
+### 4. Buka di NetBeans
+- Buka **NetBeans IDE**
+- Pilih **File → Open Project**
+- Arahkan ke folder hasil clone
+- Tambahkan library yang dibutuhkan ke project (klik kanan project → Properties → Libraries)
+
+### 5. Jalankan Aplikasi
+- Klik kanan pada file `main.java`
+- Pilih **Run File**, atau tekan `Shift + F6`
+
+---
+
+## 👤 Akun Default
+
+Sesuaikan akun pengguna di database. Tabel `user` memiliki kolom:
+
+| Kolom | Keterangan |
+|-------|------------|
+| `id_user` | ID pengguna |
+| `username` | Nama pengguna |
+| `password` | Kata sandi |
+| `jenis_akses` | `admin` atau `karyawan` |
+
+---
+
+## 📁 Struktur Tabel Database (Referensi)
+
+Berikut tabel-tabel yang digunakan oleh aplikasi berdasarkan analisis kode:
+
+- `user` — data akun pengguna
+- `barang` — data master barang
+- `supplier` — data master supplier
+- `karyawan` — data karyawan
+- `detail_transaksi_barangklr` — detail transaksi barang keluar (jual)
+- `detail_transaksi_barangmsk` — detail transaksi barang masuk (beli)
+- `detail_transaksi_barangretur` — detail transaksi retur barang
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi sangat diterima! Silakan:
+
+1. Fork repositori ini
+2. Buat branch baru: `git checkout -b fitur/nama-fitur`
+3. Commit perubahan: `git commit -m 'Menambahkan fitur X'`
+4. Push ke branch: `git push origin fitur/nama-fitur`
+5. Buat Pull Request
+
+---
+
+## 📄 Lisensi
+
+Proyek ini bersifat open-source dan bebas digunakan untuk keperluan belajar dan pengembangan.
+
+---
+
+## 👨‍💻 Author
+
+**Agung** — Dibuat sebagai proyek aplikasi inventori desktop berbasis Java.
+
+> ⭐ Jika proyek ini bermanfaat, jangan lupa berikan bintang!
